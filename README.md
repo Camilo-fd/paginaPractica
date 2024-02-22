@@ -1,1 +1,1 @@
-![](https://github.com/Camilo-fd/paginaPractica/blob/ejercicio_1/storage/img/ejercicio_1)
+![](https://github.com/Camilo-fd/paginaPractica/blob/ejercicio_6/storage/img/ejercicio_6.png)
