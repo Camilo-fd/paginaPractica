@@ -37,7 +37,7 @@ nav{
     justify-content: center;
     align-content: center;
     padding: 30px;
-    width: 100vh;
+    width: 50vh;
     height: 100%;
     background: #bbbbbb;
    
@@ -48,7 +48,7 @@ aside{
     justify-content: center;
     align-content: center;
     padding: 30px;
-    width: 100vh;
+    width: 50vh;
     height: 100%;
     background: #cccccc;
     order: 1;
