@@ -2,5 +2,64 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: blue;
+}
+
+body{
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background: #f1f1f1;
+    padding: 30px;
+    height: 15%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    height: 75%;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    width: 100vh;
+    height: 100%;
+    background: #aaaaaa;
+    order: 1;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    width: 100vh;
+    height: 100%;
+    background: #bbbbbb;
+   
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    width: 100vh;
+    height: 100%;
+    background: #cccccc;
+    order: 1;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    width: 100%;
+    height: 10%;
+    background: #f1f1f1;
 }
