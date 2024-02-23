@@ -10,14 +10,15 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: rgb(163, 159, 159);
+    background: #f3f2f0;
 }
 
 .parrafo{
     width: 500px;
-    background: rgb(150, 144, 144);
+    height: 280px;
+    background: #eae6e3;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     text-align: justify;
 }
