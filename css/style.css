@@ -6,7 +6,7 @@
 
 header{
     display: flex;
-    background: green;
+    background: rgb(232, 194, 222);
     width: 100%;
     padding: 10px;
     align-items: center;
@@ -21,31 +21,52 @@ img{
 main{
     display: flex;
     justify-content: flex-start;
-    gap: 10px;
 }
 
 aside{
     display: flex;
     width: 50%;
     padding: 10px;
-    gap: 15px;
-    flex-direction: column;
     background: beige;
+    flex-direction: column;
 }
 
 .j{
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
-.h{
-    cursor: pointer;
-}
 
 article{
     display: flex;
-    align-items: center;
     background: antiquewhite;
     width: 50%;
     padding: 10px;
+}
+
+.barra{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.barra ul li {
+    margin-bottom: 10px;
+}
+
+.barra ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menus {
+    display: none;
+    background-color: beige;
+    position: absolute;
+}
+
+.barra ul li:hover .menus {
+    display: block;
 }
