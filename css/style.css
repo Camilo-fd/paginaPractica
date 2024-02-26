@@ -3,7 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    flex-direction: column;
+}
 .caja{
     display: flex;
     width: 100%;
@@ -87,11 +92,12 @@ main{
 
 footer{
     display: flex;
-    justify-content: center;
+    bottom: 0;
     background: #dddddd;
-    width: 1000px;
     padding: 10px;
     justify-content: center;
+    align-items: center;
+    width: 1000px;
     height: 25%;
 }
 
