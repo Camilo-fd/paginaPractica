@@ -31,13 +31,12 @@ header{
     display: none;
 }
 
-.contenido_superior:hover .listas_superior{
+.contenido_superior:active .listas_superior{
     display: block;
 }
 
 img{
     width: 30px;
-    cursor: pointer;
 }
 
 main{
@@ -47,7 +46,7 @@ main{
 
 aside{
     display: flex;
-    width: 50%;
+    width: 30%;
     padding: 10px;
     background: beige;
     flex-direction: column;
@@ -62,27 +61,45 @@ aside{
 
 .barra_lateral{
     display: flex;
+    flex-direction: column;
 }
 
-.listas_laterales{
+.listas_laterales1, .listas_laterales2{
     list-style: none;
     gap: 80px;
     padding: 5px;
     display: none;
 }
 
-.sub_listas_laterales{
+#sub_listas_laterales{
     list-style: none;
     padding: 0 30px;
 }
 
-.contenido_lateral:hover .listas_laterales{
+.contenido_lateral1, .contenido_lateral2{
+    cursor: pointer;
+}
+
+.contenido_lateral1:active .listas_laterales1{
     display: block;
 }
 
 article{
     display: flex;
     background: antiquewhite;
-    width: 50%;
+    width: 70%;
     padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contenido_lateral2:active .listas_laterales2{
+    display: block;
+}
+
+
+.opciones a{
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
 }
