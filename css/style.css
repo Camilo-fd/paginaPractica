@@ -110,6 +110,7 @@ article{
 .contenedor{
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .cajas1, .cajas2{
@@ -122,15 +123,20 @@ article{
 }
 
 .caja1, .caja2, .caja3, .caja4{
-    border: solid black;
-    width: 30%;
+    border: 2px solid black;
+    width: 50%;
     height: 100%;
+    border-radius: 5%;
+    font-size: x-large;
+    background-color: white;
+    gap: 10%;
 }
 
 .relleno{
     display: flex;
-    height: 10px;
+    height: 15px;
     border: solid blue;
+    border-radius: 10%;
 }
 
 .linea1{
