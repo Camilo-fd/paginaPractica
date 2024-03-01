@@ -44,6 +44,7 @@ img{
 main{
     display: flex;
     justify-content: flex-start;
+    height: 100%;
 }
 
 aside{
@@ -126,9 +127,34 @@ article{
     height: 100%;
 }
 
-.linea{
+.relleno{
     display: flex;
-    background: black;
+    height: 10px;
+    border: solid blue;
+}
+
+.linea1{
+    background: blue;
+    border: solid blue;
+    width: 60%;
+}
+
+.linea2{
+    background: blue;
+    border: solid blue;
+    width: 20%;
+}
+
+.linea3{
+    background: blue;
+    border: solid blue;
+    width: 40%;
+}
+
+.linea4{
+   background: blue;
+   border: solid blue;
+   width: 90%;
 }
 
 .contenido{
